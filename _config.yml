@@ -49,6 +49,8 @@ collections:
     output: false
   events:
     output: true
+  ministries:
+    output: true
     
 
 
