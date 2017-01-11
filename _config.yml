@@ -51,6 +51,8 @@ collections:
     output: true
   ministries:
     output: true
+  ministry_leaders:
+    output: false
     
 
 
