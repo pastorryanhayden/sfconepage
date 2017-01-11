@@ -52,7 +52,16 @@ collections:
 position: 
 - Senior Pastor
 - Associate Pastor
+- Assistant Pastor
 - Music_Director
+- Staff
+- Missionary
+- Evangelist
+- Lay Preacher
+- Guest Preacher
+- Deacon
+
+
 icon:
 - fa-glass 
 - fa-music 
