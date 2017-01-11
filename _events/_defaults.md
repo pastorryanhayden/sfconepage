@@ -7,4 +7,5 @@ description_html:
 locatation:
 featured_image:
 ministry:
+event:
 ---
