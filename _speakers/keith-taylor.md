@@ -1,6 +1,8 @@
 ---
 name: Keith Taylor
-role:
-email:
+role: Senior Pastor
+email: pastorryanhayden@gmail.com
 thumbnail_image:
 ---
+
+
