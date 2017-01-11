@@ -53,8 +53,12 @@ collections:
     output: true
   ministry_leaders:
     output: false
+
     
 
+author:
+- Pastor Keith Taylor
+- Pastor Stephen Richardson
 
 position: 
 - Senior Pastor
