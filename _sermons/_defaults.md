@@ -1,6 +1,6 @@
 ---
 title:
-date:
+preached_date:
 bible_text:
 service:
 series:
