@@ -1,0 +1,12 @@
+---
+title: sample sermon
+date:
+bible_text:
+service:
+series:
+speakers:
+sermon_path:
+slides_path:
+handout_path:
+youtube_url:
+---
