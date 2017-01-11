@@ -1,13 +1,15 @@
 ---
 Name: Keith Taylor
-Position: Senior Pastor
-Phone_number: (111) 111 - 1111
+Position:
+  - Senior Pastor
+Phone_number:
 Email: pastor@email.com
 Thumbnail_path: /images/thumbnail.jpg
-Facebook: 
+Facebook:
 Twitter:
-Is_senior_pastor: True
+Is_senior_pastor: true
 ---
+
 
 Pastor Taylor arrived at Hartwell Baptist Church in January of 2016.  His testimony reads as follows:
 
@@ -29,7 +31,6 @@ After reading these verses it was as if the whole class was pointing their finge
 
 As the service began, Bro. Taylor sat reading Mark 7:20-23 over and over again. During the song service, the announcements, the special music, and even during the preaching those verse were nearly worn out from reading. That afternoon they kept replaying over and over again. The evening service came and still those verses were being read. Finally, about 8:00 pm Keith got up from the seat, took his Pastor by the hand and said, “I’m lost, I need to be saved.” Bro. McCracken then asked, “How long have you known?” After a pause the answer came, “I guess for over 10 years.” We bowed at the altar and Bro. McCracken said, “Stay and pray until you have peace with God.”
 
-June 25, 1995 I was gloriously saved. I have never been the same since.  
-Hallelujah!!
+June 25, 1995 I was gloriously saved. I have never been the same since.  Hallelujah!!
 
-Bro. Taylor has studied diligently and is very serious about preaching.  He holds a Master Degree in Counseling and a Master Degree in Theology.  He also has earned a Doctor of Theology and a Doctor of Ministry. His wife Cynthia has a love and heart for God and they have been married for 35 years. 
+Bro. Taylor has studied diligently and is very serious about preaching.  He holds a Master Degree in Counseling and a Master Degree in Theology.  He also has earned a Doctor of Theology and a Doctor of Ministry. His wife Cynthia has a love and heart for God and they have been married for 35 years.
