@@ -3,7 +3,7 @@ Name: Stephen Richardson
 Position:
 Phone_number:
 Email: pastor@email.com
-Thumbnail_path:
+Thumbnail_path: /uploads/9eqavpr62.jpg
 Facebook:
 Twitter:
 Is_senior_pastor: false
