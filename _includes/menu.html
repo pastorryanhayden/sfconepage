@@ -1,20 +1,21 @@
+{% assign settings = site.data.settings %}
 <div class="menulogo">
-    <img src="{{site.church_logo2_image_path}}" alt="">
+    <img src="{{settings.church_logo2_image_path}}" alt="">
 </div><!--/menulogo-->
 <div class="menucontactinfo">
     <h4>Contact Information</h4>
     <div class="address">
-        <p>{{ site.address }} <br>
-        {% if site.address2 %} {{site.address2}}<br> {% endif%}
-      {{ site.City }}, {{ site.State }} {{ site.Zip }}</p>
+        <p>{{ settings.address }} <br>
+        {% if settings.address2 %} {{settings.address2}}<br> {% endif%}
+      {{ settings.City }}, {{ settings.State }} {{ settings.Zip }}</p>
     </div><!--/address-->
     <div class="phone">
         <h5>Phone</h5>
-        <p>{{ site.phone }}</p>
+        <p>{{ settings.phone }}</p>
     </div><!--/phone-->
     <div class="email">
         <h5>Email</h5>
-        <p>{{ site.church_email }}</p>
+        <p>{{ settings.church_email }}</p>
     </div><!--/email-->
 </div><!--/menucontactinfo-->
 <div class="menuservices">

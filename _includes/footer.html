@@ -1,14 +1,15 @@
+{% assign settings = settings.data.settings %}
 <div class="footer">
   <div class="text">
       <h4>Contact Us</h4>
       <h5>By Mail:</h5>
-      <p>{{ site.address }} <br>
-        {% if site.address2 %} {{site.address2}}<br> {% endif%}
-      {{ site.City }}, {{ site.State }} {{ site.Zip }}</p>
+      <p>{{ settings.address }} <br>
+        {% if settings.address2 %} {{settings.address2}}<br> {% endif%}
+      {{ settings.City }}, {{ settings.State }} {{ settings.Zip }}</p>
       <h5>By Phone:</h5>
-      <p>{{ site.phone }}</p>
+      <p>{{ settings.phone }}</p>
       <h5>By Email:</h5>
-      <p>{{ site.church_email }}</p>
+      <p>{{ settings.church_email }}</p>
   </div><!--/text-->
 </div><!--/footer-->
 <div class="second-footer">

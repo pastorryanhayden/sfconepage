@@ -2,13 +2,15 @@
 layout: default
 main_image: /images/main_image.jpg
 ---
+{% assign settings = settings.data.settings %}
 <nav id="menu">
     {% include menu.html %}
 </nav>
+
 <main id="panel">
   <div class="header">
     <div class="wrapper">
-    <h1><img src="{{site.church_logo_image_path}}" alt="{{site.church_name}}"></h1>
+    <h1><img src="{{settings.church_logo_image_path}}" alt="{{settings.church_name}}"></h1>
     <a href="#" class="toggle-button"><img src="http://sitesforchurch.s3.amazonaws.com/Menu.png" alt="Menu" width="45" height="45px"></a>
     </div><!--/wrapper-->
   </div><!--/header-->
