@@ -1,18 +1,19 @@
 ---
 layout: default
 heading: Are You Sure?
-featured_image: 
+featured_image: /uploads/gospel.png
 ---
+
 
 ### Realize That God Loves You
 
 God loves you and has a plan for your life.
 
->  *“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”* John 3:16
+> *“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”* John 3:16
 
-### The Bible Says That All Men Are Sinners 
+### The Bible Says That All Men Are Sinners
 
-Our sins have separated us from God. 
+Our sins have separated us from God.
 
 > *“For all have sinned, and come short of the glory of God.”* Romans 3:23
 
@@ -20,7 +21,7 @@ God made man in His own image. He gave man the ability to choose right from wron
 
 God’s Word Also Says That Sin Must Be Paid For
 
-> *“For the wages of sin is death....”* Romans 6:23
+> *“For the wages of sin is death….”* Romans 6:23
 
 "Wages" means payment. The payment of our sin is death and hell, separation from God forever. If we continue in our sin, we shall die without Christ and be without God forever.
 
