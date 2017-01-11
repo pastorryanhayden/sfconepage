@@ -9,5 +9,7 @@ meetingtime:
 meeting_place:
 header_image:
 logo_image:
-ministry_leader:
+ministry_leader: pastor-keith-taylor
 ---
+
+
