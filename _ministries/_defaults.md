@@ -5,7 +5,7 @@ show_on_home_page: true
 exclude_from_menus: true
 group:
 description_html:
-meeting_time:
+meetingtime:
 meeting_place:
 header_image:
 logo_image:
