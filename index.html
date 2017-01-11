@@ -1,6 +1,6 @@
 ---
 layout: default
-main_image: /images/main_image.jpg
+main_image:
 ---
 {% assign settings = settings.data.settings %}
 <nav id="menu">
@@ -10,8 +10,8 @@ main_image: /images/main_image.jpg
 <main id="panel">
   <div class="header">
     <div class="wrapper">
-    <h1><img src="{{settings.church_logo_image_path}}" alt="{{settings.church_name}}"></h1>
-    <a href="#" class="toggle-button"><img src="http://sitesforchurch.s3.amazonaws.com/Menu.png" alt="Menu" width="45" height="45px"></a>
+    <h1><img src="{{settings.church_logo_image_path}}" alt="{{settings.church_name}}" /></h1>
+    <a href="#" class="toggle-button"><img src="http://sitesforchurch.s3.amazonaws.com/Menu.png" alt="Menu" width="45" height="45px" /></a>
     </div><!--/wrapper-->
   </div><!--/header-->
   <div class="hero" style="background: url({{page.main_image}}) no-repeat center center; background-size: cover;">
@@ -58,8 +58,8 @@ main_image: /images/main_image.jpg
       <div class="column section editable">
         <h3>When do you meet?</h3>
         <h4>Sundays:</h4>
-        <p>Sunday School - 9:30AM <br>
-          Morning Service - 10:30AM <br>
+        <p>Sunday School - 9:30AM <br />
+          Morning Service - 10:30AM <br />
         Evening Service - 6:00 PM</p>
         <h4>Wednesdays</h4>
         <p>Bible Study &amp; Prayer Meeting - 7:00 PM</p>
@@ -91,7 +91,7 @@ main_image: /images/main_image.jpg
   <div class="photos">
   <div class="photos-inner" id="sqr-gallery">
      {% for img in site.photo_gallery limit: 12 %}
-        <div class="photo"><a href="#" data-featherlight="{{img.image_path}}"><img src="{{img.image_path }}" alt="{{img.title}}"></a></div>
+        <div class="photo"><a href="#" data-featherlight="{{img.image_path}}"><img src="{{img.image_path }}" alt="{{img.title}}" /></a></div>
       {% endfor %}
   </div><!--/photos-inner-->
 </div><!--/gallery-->
@@ -100,18 +100,18 @@ main_image: /images/main_image.jpg
   <h2 class="editable">Our Pastors:</h2>
   {% for leader in site.leaders %}
   <div class="leader">
-  <img src="{{ leader.Thumbnail_path }}" alt="{{leader.Name}}">
+  <img src="{{ leader.Thumbnail_path }}" alt="{{leader.Name}}" />
   <h3>{{leader.Name}}</h3>
   <ul class="social-menu">
     {% if  leader.Twitter %}
-    <li><a href="leader.twitter"><img src="http://sitesforchurch.s3.amazonaws.com/twitter.png" alt=""/></a></li>{% endif %}
+    <li><a href="leader.twitter"><img src="http://sitesforchurch.s3.amazonaws.com/twitter.png" alt="" /></a></li>{% endif %}
     {% if  leader.Facebook %}
-    <li><a href="leader.facebook"><img src="http://sitesforchurch.s3.amazonaws.com/facebook.png" alt=""/></a></li>{% endif %}
+    <li><a href="leader.facebook"><img src="http://sitesforchurch.s3.amazonaws.com/facebook.png" alt="" /></a></li>{% endif %}
     {% if  leader.Email %}
-    <li><a href="leader.email"><img src="http://sitesforchurch.s3.amazonaws.com/email-1.png" alt=""/></a></li>{% endif %}
+    <li><a href="leader.email"><img src="http://sitesforchurch.s3.amazonaws.com/email-1.png" alt="" /></a></li>{% endif %}
   </ul>  
   {{ leader.content | truncatewords: 40 }}
-  <br>
+  <br />
   <a href="{{leader.url}}" class="button">Read More</a>
   
   </div><!--/leader--> 
