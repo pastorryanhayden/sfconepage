@@ -47,6 +47,9 @@ collections:
     output: false 
   beliefs:
     output: false
+  events:
+    output: true
+    
 
 
 position: 
