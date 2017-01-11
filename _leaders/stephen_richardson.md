@@ -1,6 +1,8 @@
 ---
 Name: Stephen Richardson
 Position:
+  - Associate Pastor
+  - Music_Director
 Phone_number:
 Email: pastor@email.com
 Thumbnail_path: /uploads/9eqavpr62.jpg
