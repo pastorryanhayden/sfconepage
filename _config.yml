@@ -54,6 +54,11 @@ collections:
   - leaders
   - services 
 
+_defaults:
+  Position: Senior Pastor
+  Position: Associate Pastor
+  Position: Music_Director
+
 
 
 
