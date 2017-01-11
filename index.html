@@ -102,8 +102,6 @@ main_image: /images/main_image.jpg
   <div class="leader">
   <img src="{{ leader.Thumbnail_path }}" alt="{{leader.Name}}">
   <h3>{{leader.Name}}</h3>
-  {{ leader.content }}
-  <a href="#" class="button">Read More</a>
   <ul class="social-menu">
     {% if  leader.Twitter %}
     <li><a href="leader.twitter"><img src="http://sitesforchurch.s3.amazonaws.com/twitter.png" alt=""/></a></li>{% endif %}
@@ -112,6 +110,10 @@ main_image: /images/main_image.jpg
     {% if  leader.Email %}
     <li><a href="leader.email"><img src="http://sitesforchurch.s3.amazonaws.com/email-1.png" alt=""/></a></li>{% endif %}
   </ul>  
+  {{ leader.content | truncatewords: 40 }}
+  <br>
+  <a href="{{leader.url}}" class="button">Read More</a>
+  
   </div><!--/leader--> 
   {% endfor %}
 </div><!--/Meet-pastor-->
