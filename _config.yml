@@ -45,6 +45,8 @@ collections:
     output: true
   speakers: 
     output: false 
+  beliefs:
+    output: false
 
 _defaults:
   Position: 
