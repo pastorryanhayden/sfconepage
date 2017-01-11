@@ -1,6 +1,6 @@
 ---
 name:
-role:
+Position: Senior Pastor
 email:
 thumbnail_image: 
 ---
