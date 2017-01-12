@@ -8,6 +8,7 @@ Thumbnail_path: /images/thumbnail.jpg
 Facebook:
 Twitter:
 Is_senior_pastor: true
+layout: leader 
 ---
 
 

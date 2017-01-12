@@ -9,6 +9,7 @@ Thumbnail_path: /uploads/9eqavpr62.jpg
 Facebook:
 Twitter:
 Is_senior_pastor: false
+layout: leader
 ---
 
 

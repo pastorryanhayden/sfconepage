@@ -9,29 +9,9 @@
     <link rel="stylesheet" href="{{site.url}}/assets/css/app.css">
     <script src="https://use.fontawesome.com/00d641a760.js"></script>
   </head>
-  <body class="secondary-page">
-  <nav id="menu">
-    {% include menu.html %}
-</nav>
+  <body>
 
-<main id="panel">
-  <div class="header">
-    <div class="wrapper">
-    <h1><img src="{{settings.church_logo_image_path}}" alt="{{settings.church_name}}" /></h1>
-    <a href="#" class="toggle-button"><img src="http://sitesforchurch.s3.amazonaws.com/Menu.png" alt="Menu" width="45" height="45px" /></a>
-    </div><!--/wrapper-->
-  </div><!--/header-->
-  <div class="hero" style="background: url({{site.data.settings.main_image}}) no-repeat center center; background-size: cover;">
-  <div class="page-header">
-      <h2><span>About Us:</span> {{page.title}}</h2>
-  </div><!--/page-header-->
-  </div><!--/hero-->
-  <div class="main-content">
         {{ content }}
-    </div><!--/main-content-->
-
-  {% include footer.html %}
-</main>
 
           <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
