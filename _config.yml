@@ -60,7 +60,8 @@ collections:
     output: false
     _hide_content: true
 
-   
+_defaults:
+  series: no-series 
 
 author:
 - Pastor Keith Taylor
