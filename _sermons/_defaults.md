@@ -16,4 +16,6 @@ sermon_path:
 slides_path:
 handout_path:
 youtube_url:
+sermon_content_markdown:
+_hide_content: true
 ---
