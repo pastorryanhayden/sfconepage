@@ -1,6 +1,6 @@
 ---
 Name: Biblical Separation
-icon:
+icon: fa-warning
 order: 9
 ---
 

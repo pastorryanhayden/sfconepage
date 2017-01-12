@@ -1,6 +1,6 @@
 ---
 Name: The Church
-icon:
+icon: fa-institution
 order: 7
 ---
 
