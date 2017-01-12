@@ -1,7 +1,7 @@
 church_name: Hartwell Baptist Church
 church_logo_image_path: /assets/img/logo.jpg
 church_logo2_image_path: /assets/img/logo.jpg
-main_image: /uploads/background3.jpg 
+main_image: /uploads/background3.jpg
 phone: (513) 761-1434
 church_email: pastortaylorhbc@yahoo.com
 facebook: 'https://www.facebook.com/hartwellbaptistchurch'
@@ -13,5 +13,5 @@ City: Cincinnati
 State: OH
 Zip: '45216'
 Google_maps_embed:
-main_blog_image:
-main_sermon_image:
+main_blog_image: /uploads/1.jpg
+main_sermon_image: /uploads/2.jpg
