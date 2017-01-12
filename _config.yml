@@ -60,18 +60,6 @@ collections:
     output: false
     _hide_content: true
 
- defaults:
-  -
-    scope:
-      path: ""
-      type: "sermons"
-    values:
-      _comments:
-        sermon_name: What is the name of the sermon?
-        preached_date: When was it preached?
-        service: What type of service was this?
-        bible_text: From what Bible text was this sermon preached?
-        
    
 
 author:
