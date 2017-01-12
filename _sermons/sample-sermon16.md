@@ -1,7 +1,7 @@
 ---
 sermon_name: Sample Sermon
 preached_date: 2017-01-15 00:00:00
-service: Sunday_school
+service: 'Sunday School'
 bible_text: 'John 3:16'
 sery: no-series
 speaker: keith-taylor
@@ -22,4 +22,5 @@ _comments:
   handout_path: Upload a handouts file (optional)
   youtube_url: You can paste the youtube URL here (optional)
   sermon_content_markdown: 'If you want to include the text of your sermon, put it here (optional)'
+layout: sermons
 ---

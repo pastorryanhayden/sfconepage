@@ -2,12 +2,12 @@
 sermon_name:
 preached_date:
 service:
-  - Sunday AM
-  - Sunday PM
-  - Sunday School
-  - Special Meeting
-  - Midweek Service
-  - Other
+  - 'Sunday AM'
+  - 'Sunday PM'
+  - 'Sunday School'
+  - 'Special Meeting'
+  - 'Midweek Service'
+  - 'Other'
 bible_text:
 sery:
 speaker:
@@ -16,6 +16,7 @@ slides_path:
 handout_path:
 youtube_url:
 sermon_content_markdown:
+layout: sermons
 _comments:
   sermon_name: What was the sermon called?
   preached_date: When was the sermon preached?
@@ -28,4 +29,5 @@ _comments:
   handout_path: Upload a handouts file (optional)
   youtube_url: You can paste the youtube URL here (optional)
   sermon_content_markdown: If you want to include the text of your sermon, put it here (optional)
+  layout: Please Don't touch this.
 ---
