@@ -7,7 +7,7 @@ series:
   - no-series
 speakers:
   - keith-taylor
-sermon_path:
+sermon_path: /uploads/1-always.mp3
 slides_path:
 handout_path:
 youtube_url:
