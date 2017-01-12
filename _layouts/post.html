@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{site.url}}/assets/css/app.css">
     <script src="https://use.fontawesome.com/00d641a760.js"></script>
   </head>
-  <body class="secondary-page {{page.class}}">
+  <body class="secondary-page post">
   <nav id="menu">
     {% include menu.html %}
 </nav>
@@ -23,12 +23,28 @@
   </div><!--/header-->
   <div class="hero" style="background: url({{site.data.settings.main_image}}) no-repeat center center; background-size: cover;">
   <div class="page-header">
-      <h2>{% if page.alt-title %} {{page.alt-title |raw}}{% else %}<span>About Us:</span> {{page.title}}{% endif %}</h2>
+      <h2><span>Our Blog:</span> {{page.title}}</h2>
   </div><!--/page-header-->
   </div><!--/hero-->
-  <div class="main-content">
-        {{ content }}
-    </div><!--/main-content-->
+  <div class="blog-entry-page">
+    <div class="blog-entry">
+            {% if page.featured_image %}
+            <img src="{{page.featured_image}}" alt="{{page.title}}" class="entry-image">
+            {% else %}
+            <img src="{{site.data.settings.main_blog_image}}" alt="Default Blog Image" class="entry-image">
+            {% endif %}
+            <div class="entry-text">
+            <div class="entry-header">
+                <h3>{{page.title}}</h3>
+                <p class="description"><strong>Posted On:</strong> {{page.date | date: "%B %-d, %Y" }} • <strong>Author:</strong> {{page.author}} • <strong>Category:</strong> {{page.categories}}</p>
+            </div><!--/entry-text-->
+            <div class="entry-description">
+               {{content}}
+            </div><!--/entry-description-->
+            </div><!//entry-text-->
+        </div><!--/blog-entry-->
+        <a href="{{site.url}}/media/blog-list.html" class="button return-link"> <i class="fi-arrow-left"></i> Return to the List of Blog Posts</a>
+</div><!--/blog-entry-page-->
 
   {% include footer.html %}
 </main>
