@@ -42,9 +42,11 @@ collections:
     output: false
     _hide_content: true
   sermons:
-    output: true 
+    output: true
+    _hide_content: true 
   series:
     output: true
+    _hide_content: true 
   speakers: 
     output: false
     _hide_content: true 
