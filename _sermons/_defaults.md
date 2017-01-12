@@ -9,12 +9,16 @@ service:
   - Midweek Service
   - Other
 bible_text:
-collections:
-  - series
-  - speakers
+series:
+speaker:
 sermon_path:
 slides_path:
 handout_path:
 youtube_url:
 sermon_content_markdown:
+_comments:
+  sermon_name: The page title
+  output: Does this item have a dedicated page?
+  brand_colour: The primary brand colour
+  footer: Update the details in the footer
 ---
