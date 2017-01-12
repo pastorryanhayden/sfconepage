@@ -10,7 +10,7 @@ alt-title: '<span>Our Sermons</span>'
         <div class="sermonslistItem">
             <div class="sermonslistItem__thumbnail">
             {% assign series = sermon.series %}
-            {% assign sermon_series = site.series | where: "title", series %}   
+            {% assign sermon_series = site.series | where: "slug", sermon.sery %}   
             {% for sery in sermon_series %}
                     <img src="{{sery.featured_image}}" alt="{{sery.title}}">
             {% endfor %}
