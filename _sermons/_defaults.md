@@ -17,8 +17,15 @@ handout_path:
 youtube_url:
 sermon_content_markdown:
 _comments:
-  sermon_name: The page title
-  output: Does this item have a dedicated page?
-  brand_colour: The primary brand colour
-  footer: Update the details in the footer
+  sermon_name: What was the sermon called?
+  preached_date: When was the sermon preached?
+  service: What type of service was it?
+  bible_text: What scriptures were used (What was the text)?
+  series: What series was this a part of (required)?
+  speaker: Who preached the message?
+  sermon_path: Upload the sermon MP3  
+  slides_path: Upload the slides file (optional)
+  handout_path: Upload a handouts file (optional)
+  youtube_url: You can paste the youtube URL here (optional)
+  sermon_content_markdown: If you want to include the text of your sermon, put it here (optional)
 ---
