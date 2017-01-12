@@ -9,7 +9,7 @@ service:
   - Midweek Service
   - Other
 bible_text:
-series:
+sery:
 speaker:
 sermon_path:
 slides_path:
@@ -21,7 +21,7 @@ _comments:
   preached_date: When was the sermon preached?
   service: What type of service was it?
   bible_text: What scriptures were used (What was the text)?
-  series: What series was this a part of (required)?
+  sery: What series was this a part of (required)?
   speaker: Who preached the message?
   sermon_path: Upload the sermon MP3  
   slides_path: Upload the slides file (optional)
