@@ -1,15 +1,11 @@
 ---
 layout: default
-header_image:
-
+title: Leadership & Staff
+class: leadershipPage
 ---
 <div class="aboutContent">
     <div class="aboutContent__content" id="content">
 
-        <div class="aboutContent__content__pageHeader">
-        <img src="{{page.header_image}}" alt="">
-        <h1 class="editable">About Us: <span>Leadership &amp; Staff</span></h1>
-        </div><!--/page-header-->
     <article class="aboutContent__content__content">
        {% for leader in site.leaders %}
        {% if  leader.Is_senior_pastor %}
@@ -19,7 +15,9 @@ header_image:
            {% if leader.Thumbnail_path %}
             <img class="thumbnail" src="{{leader.Thumbnail_path}}" alt="">
            {% endif %}
-            {{leader.content}}
+            {{leader.content | truncatewords: 50}}
+            <br>
+            <a href="{{leader.url}}" class="button">Read More</a>
            <div style="clear: right"></div>
        </div><!--/senior-pastor-div-->
        {% else %}
@@ -29,7 +27,9 @@ header_image:
            {% if leader.Thumbnail_path %}
             <img class="thumbnail" src="{{leader.Thumbnail_path}}" alt="">
            {% endif %}
-           {{leader.content}}
+           {{leader.content | truncatewords: 50}}
+            <br>
+            <a href="{{leader.url}}" class="button">Read More</a>
            <div style="clear: right"></div>
        </div><!--/regular leader-div-->
        {% endif %}
