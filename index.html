@@ -26,19 +26,19 @@ main_image: /uploads/background3.jpg
     <h2 class="editable">What if you could find?</h2>
         <div class="hero-sections">
           <div class="section editable">
-              <h3>Truth</h3>
+              <h3><i class="fa fa-book"></i> Truth</h3>
               <p>Whether it is our Sunday School, our Morning or Evening Preaching times, or our Wednesday Evening Bible study and prayer- we use the Bible to discover truth.</p>
           </div><!--/section-->
           <div class="section editable">
-              <h3>Grace</h3>
+              <h3><i class="fa fa-heart"></i> Grace</h3>
               <p>Learn about what Jesus has done for you.  He’s paved the way for you to have a meaningful relationship with God and an eternal home in heaven.</p>
           </div><!--/section-->
           <div class="section editable">
-              <h3>Purpose</h3>
+              <h3><i class="fa fa-bullseye"></i> Purpose</h3>
               <p>Live for more than toys and a paycheck.  Figure out what God made you.  Be a part of something with eternal consequences.</p>
           </div><!--/section-->
           <div class="section editable">
-              <h3>Community</h3>
+              <h3><i class="fa fa-comments"></i> Community</h3>
               <p>Don’t go it alone.  Find friends who share your deepest beliefs and will help and encourage you through life. Our Pastor has said it numerous times- the local New Testament church is the greatest support group you could ever belong to.</p>
           </div><!--/section-->
           <!-- <div class="section editable">
@@ -87,7 +87,7 @@ main_image: /uploads/background3.jpg
   <div class="photos">
   <div class="photos-inner" id="sqr-gallery">
      {% for img in site.photo_gallery limit: 12 %}
-        <div class="photo"><a href="#" data-featherlight="{{img.image_path}}"><img src="{{img.image_path }}" alt="{{img.title}}" /></a></div>
+        <div class="photo"><a href="#" data-featherlight="{{img.image_path}}" style="background: url({{img.image_path }}) no-repeat center center; background-size: cover; width: 250px; height: 250px; line-height: 250px; display: block;"></a></div>
       {% endfor %}
   </div><!--/photos-inner-->
 </div><!--/gallery-->
