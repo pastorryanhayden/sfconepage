@@ -60,7 +60,16 @@ collections:
     output: false
     _hide_content: true
 
-    
+ defaults:
+  -
+    scope:
+      path: ""
+      type: "sermons"
+    values:
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+   
 
 author:
 - Pastor Keith Taylor
