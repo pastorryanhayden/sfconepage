@@ -1,5 +1,6 @@
 ---
 layout: default
+title: The Gospel
 heading: Are You Sure?
 featured_image: /uploads/gospel.png
 ---
