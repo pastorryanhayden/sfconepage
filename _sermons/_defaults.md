@@ -1,7 +1,6 @@
 ---
 sermon_name:
 preached_date:
-bible_text:
 service:
   - Sunday AM
   - Sunday PM
@@ -9,6 +8,7 @@ service:
   - Special Meeting
   - Midweek Service
   - Other
+bible_text:
 collections:
   - series
   - speakers
