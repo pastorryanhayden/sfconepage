@@ -2,7 +2,7 @@
 Name: 'The Person & Work of Christ'
 icon:
   - fa-user
-order: '3'
+order: 3
 ---
 
 
