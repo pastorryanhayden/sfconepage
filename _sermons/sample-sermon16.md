@@ -1,21 +1,15 @@
 ---
-sermon_name:
-preached_date:
-service:
-  - Sunday AM
-  - Sunday PM
-  - Sunday School
-  - Special Meeting
-  - Midweek Service
-  - Other
-bible_text:
-sery:
-speaker:
-sermon_path:
+sermon_name: Sample Sermon
+preached_date: 2017-01-15 00:00:00
+service: Sunday_school
+bible_text: 'John 3:16'
+sery: no-series
+speaker: keith-taylor
+sermon_path: /uploads/1-always.mp3
 slides_path:
 handout_path:
 youtube_url:
-sermon_content_markdown:
+sermon_content_markdown: 'Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
 _comments:
   sermon_name: What was the sermon called?
   preached_date: When was the sermon preached?
