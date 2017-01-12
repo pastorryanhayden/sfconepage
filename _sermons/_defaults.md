@@ -1,5 +1,5 @@
 ---
-title:
+sermon_name:
 preached_date:
 bible_text:
 service:
