@@ -3,6 +3,12 @@ title: Sample Sermon
 date: 2017-01-08 00:00:00
 bible_text:
 service:
+  - Sunday AM
+  - Sunday PM
+  - Sunday School
+  - Special Meeting
+  - Midweek Service
+  - Other
 series:
   - no-series
 speakers:

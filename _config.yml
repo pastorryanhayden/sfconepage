@@ -37,14 +37,17 @@ collections:
     output: true
   photo_gallery:
     output: false
+    _hide_content: true
   services:
     output: false
+    _hide_content: true
   sermons:
     output: true 
   series:
     output: true
   speakers: 
-    output: false 
+    output: false
+    _hide_content: true 
   beliefs:
     output: false
   events:
@@ -53,6 +56,7 @@ collections:
     output: true
   ministry_leaders:
     output: false
+    _hide_content: true
 
     
 

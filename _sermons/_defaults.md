@@ -3,8 +3,15 @@ title:
 preached_date:
 bible_text:
 service:
-series:
-speakers:
+  - Sunday AM
+  - Sunday PM
+  - Sunday School
+  - Special Meeting
+  - Midweek Service
+  - Other
+collections:
+  - series
+  - speakers
 sermon_path:
 slides_path:
 handout_path:
