@@ -1,8 +1,8 @@
 ---
 published: true
-all_day: false
 start_date: 
 end_date:
+all_day: false
 location:
 description_markdown:
 ministry:
