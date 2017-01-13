@@ -1,7 +1,7 @@
 ---
 published: true
-start_date: 
-end_date:
+start_at: 
+end_at:
 all_day: false
 location:
 description_markdown:
