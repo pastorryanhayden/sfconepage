@@ -1,5 +1,5 @@
 ---
-name:
+event_name:
 published: true
 event_date:
 time:
