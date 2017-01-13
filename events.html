@@ -2,10 +2,18 @@
 layout: events
 alt-title: '<span>Church Calendar</span>'
 ---
+
+
+
 <div id='calendar'></div>
 <div class="calendar-list">
 <div class="calendar-list-content">
     {% for event in site.events limit: 6 %}
+    {% capture now-unix-seconds %}{{ 'now' | date: '%s' }}{% endcapture %}
+    {% capture event-time-seconds %}{{event.start_at | date: '%s' }}{% endcapture %}
+    {% capture now-unix %}{{ now-unix-seconds | divided_by: 86400}}{% endcapture %}
+    {% capture event-time %}{{ event-time-seconds | divided_by: 86400}}{% endcapture %}
+    {% if now-unix <= event-time %} 
     <div class="calendar-list-item">
         {% if event.featured_image %}
         <img src="{{event.featured_image}}" alt="{{event.event_name}}">
@@ -29,7 +37,7 @@ alt-title: '<span>Church Calendar</span>'
             </div><!--/details-inner-->
         </div><!--/details-->
     </div><!--/calendar-list-item-->
+    {% endif %} 
     {% endfor %}
-   
 </div><!--/calendar-list-content-->
 </div><!--/calendar-list-->
