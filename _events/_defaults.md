@@ -1,11 +1,9 @@
 ---
 event_name:
-allDay: true
-start:
-end:
+allDay: false
+start_date:
+end_date:
 published: true
-event_date:
-time:
 description_html:
 locatation:
 featured_image:
