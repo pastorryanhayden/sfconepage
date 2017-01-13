@@ -54,6 +54,7 @@ collections:
     output: false
   events:
     output: true
+    _hide_content: true
   ministries:
     output: true
   ministry_leaders:
