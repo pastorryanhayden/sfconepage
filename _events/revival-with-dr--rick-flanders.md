@@ -8,4 +8,6 @@ description_markdown: 'Special winter revival services with Dr. Rick Flanders!'
 ministry:
 featured_image: /uploads/kickoff-revival.jpg
 page_markdown:
+layout: single_event
+layout: single_event
 ---

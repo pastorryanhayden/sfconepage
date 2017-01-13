@@ -8,4 +8,5 @@ description_markdown:
 ministry:
 featured_image:
 page_markdown:
+layout: single_event
 ---

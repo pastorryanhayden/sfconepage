@@ -8,4 +8,5 @@ description_markdown: Test.
 ministry: sample
 featured_image:
 page_markdown:
+layout: single_event
 ---
