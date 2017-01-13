@@ -2,7 +2,7 @@
 name: No Series
 published: true
 description_html:
-featured_image: /uploads/roadrunner-1.jpg
+featured_image: /uploads/2.jpg
 ---
 
 
