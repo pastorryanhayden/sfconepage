@@ -1,5 +1,8 @@
 ---
 event_name:
+allDay: true
+start:
+end:
 published: true
 event_date:
 time:
