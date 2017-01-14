@@ -6,3 +6,9 @@ main_font: "'Playfair Display', serif"
 main_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Playfair+Display');"
 secondary_font: "'Raleway', sans-serif"
 secondary_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Raleway');"
+
+_comments:
+  main_font: "i.e. 'Playfair Display', serif - IMPORTANT - leave off the 'font-family' and the trailing semi-colon!"
+  main_font_import_code: "i.e. @import url('https://fonts.googleapis.com/css?family=Playfair+Display'); - IMPORTANT - INCLUDE the trailing-semicolon!"
+  secondary_font: "i.e. 'Raleway', serif - IMPORTANT - leave off the 'font-family' and the trailing semi-colon!"
+  secondary_font_import_code: "i.e. @import url('https://fonts.googleapis.com/css?family=Raleway'); - IMPORTANT - INCLUDE the trailing-semicolon!"
