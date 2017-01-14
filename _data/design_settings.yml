@@ -1,0 +1,9 @@
+main_dark_color: '#4C443A'
+main_light_color: '#E8E4DB'
+main_bright_color: '#BE552B'
+secondary_bright_color: '#931621'
+
+main_font: "'Playfair Display', serif"
+main_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Playfair+Display');"
+secondary_font: "'Raleway', sans-serif"
+secondary_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Raleway');"

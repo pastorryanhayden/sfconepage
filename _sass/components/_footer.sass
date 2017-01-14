@@ -1,10 +1,10 @@
 .footer 
     width: 100%
     min-height: 297px
-    background: #716558
-    color: #E8E4DB
+    background: $main_dark_color
+    color: $main_light_color
     padding: 40px
-    border-bottom: 1px solid #E8E4DB
+    border-bottom: 1px solid $main_light_color
     .text
         max-width: 1200px
         margin-left: auto
@@ -13,27 +13,27 @@
         font-size: 20px
         text-transform: uppercase 
         margin-bottom: 37px
-        font-family: 'Playfair Display', serif
+        font-family: $main_font
     h5 
         font-size: 15px
-        font-family: 'Playfair Display', serif
+        font-family: $main_font
         margin-bottom: 6px 
     p 
         font-size: 15px
         line-height: 25px
         margin-bottom: 25px
-        color: #E8E4DB
-        font-family: 'Raleway', sans-serif
+        color: $main_light_color
+        font-family: $secondary_font
 .second-footer
-    background: #716558
-    color: #E8E4DB
+    background: darken($main_dark_color, 5%)
+    color: $main_light_color
     display: flex
     align-items: center 
     min-height: 70px
     flex-wrap: wrap
     padding-left: 40px
     padding-right: 40px 
-    font-family: 'Raleway', sans-serif
+    font-family: $secondary_font
 
     ul.menu
         max-width: 1200px 
@@ -43,10 +43,10 @@
         flex-grow: 2
 
         li a 
-            color: #E8E4DB
+            color: $main_light_color
 
     p.copyright
         margin-bottom: 0
         a 
-            color: #E8E4DB
+            color: $main_light_color
 

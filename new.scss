@@ -1,13 +1,46 @@
 ---
+
 ---
 
 @charset 'utf-8';
+
+{{main_font_import_code}}
+{{secondary_font_import_code}}
+
+
+$main_dark_color: {{site.data.design_settings.main_dark_color}};
+$main_light_color: {{site.data.design_settings.main_light_color}};
+$main_bright_color: {{site.data.design_settings.main_bright_color}};
+$secondary_bright_color: {{site.data.design_settings.secondary_bright_color}};
+$main_font: {{site.data.design_settings.main_font}};
+$secondary_font: {{site.data.design_settings.secondary_font}};
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+$foundation-palette: (
+  primary: $main_bright_color,
+  secondary: $main_dark_color,
+  success: $main_bright_color,
+  warning: $secondary_bright_color,
+  alert: $secondary_bright_color,
+);
+$light-gray: #e6e6e6;
+$medium-gray: #747E80;
+$dark-gray: #979797;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white;
+$body-font-color: $black;
+$body-font-family: $main-font;
+$header-font-family: $body-font-family;
+$header-font-style: normal;
+
+
 
 @import 'settings';
 @import 'foundation-sites/scss/foundation';
 @import 'motion-ui/src/motion-ui';
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway');
 
 @include foundation-global-styles; 
 @include foundation-grid;

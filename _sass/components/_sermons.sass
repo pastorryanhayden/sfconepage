@@ -11,8 +11,8 @@
         font-weight: bold
         padding-bottom: 27px
         border-bottom: 1px solid $black
-        font-family: 'Playfair Display', serif
-        color: #4A4A4A
+        font-family: $main_font
+        color: darken($main_dark_color, 10%)
         margin-bottom: 27px
     .latest-sermon
         background: #ECEFF4
@@ -48,7 +48,7 @@
             @include breakpoint(large)
                 flex-direction: row 
             h4
-                font-family: 'Raleway', sans-serif
+                font-family: $secondary_font
                 font-size: 20px 
                 margin-right: 0
                 margin-top: 20px
@@ -78,7 +78,7 @@
             margin-left: 0
             font-size: 15px
             flex-direction: column
-            font-family: 'Raleway', sans-serif
+            font-family: $secondary_font
             @include breakpoint(large)
                 flex-direction: row 
             li 
@@ -91,7 +91,7 @@
         border: 1px solid #54657E
         color: #54657E
         border-radius: 30px
-        font-family: 'Raleway', sans-serif
+        font-family: $secondary_font
 .sermons-list
     margin-bottom: 25px
     .sermon-item
@@ -109,7 +109,7 @@
         .title
             h4
                 font-size: 16px
-                font-family: 'Raleway', sans-serif
+                font-family: $secondary_font
                 line-height: 20px
                 color: #54657E
             .info
@@ -117,7 +117,7 @@
                 list-style-type: none
                 margin-left: 0
                 font-size: 15px
-                font-family: 'Raleway', sans-serif
+                font-family: $secondary_font
                 flex-direction: column
                 @include breakpoint(medium)
                     flex-direction: row
