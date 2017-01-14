@@ -2,7 +2,7 @@ main_dark_color: '#5c5c5c'
 main_light_color: '#e9e9e9'
 main_bright_color: '#2b73be'
 secondary_bright_color: '#931621'
-main_font: "'Playfair Display', serif"
-main_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Playfair+Display');"
-secondary_font: "'Raleway', sans-serif"
-secondary_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Raleway');"
+main_font: "font-family: 'Roboto', sans-serif"
+main_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Roboto');"
+secondary_font: "font-family: 'Rubik', sans-serif"
+secondary_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Rubik');"
