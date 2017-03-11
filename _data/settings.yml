@@ -12,6 +12,19 @@ address2:
 City: Cincinnati
 State: OH
 Zip: '45216'
+services:
+  -
+    name: Sunday School
+    time: 10am
+    day: Sunday
+  - 
+    name: Morning Worship
+    time: 11am
+    day: Sunday
+  -
+    name: Bible Study
+    time: 7pm
+    day: Wednesday
 main_blog_image: /uploads/1.jpg
 main_sermon_image: /uploads/2.jpg
 default_calendar_image: /uploads/hartwell.jpg
